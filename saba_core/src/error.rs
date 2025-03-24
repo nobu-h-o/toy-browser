@@ -1,4 +1,5 @@
 use alloc::string::String;
+use alloc::format;
 
 #[derive(Debug, Clone, PartialEq, Eq)]
 pub enum Error {
