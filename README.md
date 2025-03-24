@@ -23,3 +23,13 @@ Description:    Ubuntu 24.04.2 LTS
 Release:        24.04
 Codename:       noble
 ```
+
+## Testing
+Create a html file at the root of the project.
+```shell
+touch test.html
+```
+serve the file with python.
+```shell
+python3 -m http.server 8000
+```
