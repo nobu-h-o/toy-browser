@@ -13,3 +13,13 @@ to run the browser in the toy OS provided ([wasabi](https://github.com/hikalium/
 cargo build --no-default-features
 ```
 to build without running the OS.
+
+## Environment
+The code in this repository has only been tested on Ubuntu. The specific version is as follows:
+
+```shell
+Distributor ID: Ubuntu
+Description:    Ubuntu 24.04.2 LTS
+Release:        24.04
+Codename:       noble
+```
