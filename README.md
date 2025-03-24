@@ -33,3 +33,8 @@ serve the file with python.
 ```shell
 python3 -m http.server 8000
 ```
+You can also use the unit tests that are available in `saba_core`.
+```shell
+cd saba_core
+cargo test
+```
