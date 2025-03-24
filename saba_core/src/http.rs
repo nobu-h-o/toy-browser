@@ -9,3 +9,22 @@ pub struct HttpResponse {
     headers: Vec<Header>,
     body: String,
 }
+
+#[derive(Debug, Clone)]
+pub struct Header {
+    name: String,
+    value: String,
+}
+
+impl Header {
+    pub fn new(name: String, value: String) -> Self {
+        Self { name, value }
+    }
+}
+
+impl HttpResponse {
+    pub fn new(raw_response: String) -> Result<Self, Error> {
+    }
+}
+
+
