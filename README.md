@@ -38,3 +38,30 @@ You can also use the unit tests that are available in `saba_core`.
 cd saba_core
 cargo test
 ```
+
+## Project Structure
+```shell
+❯ tree -L 2
+.
+├── Cargo.lock
+├── Cargo.toml
+├── Makefile
+├── README.md
+├── build
+│   └── wasabi
+├── net
+│   └── wasabi
+├── run_on_wasabi.sh
+├── rust-toolchain.toml
+├── saba_core
+│   ├── Cargo.toml
+│   └── src
+├── src
+│   └── main.rs
+├── target
+│   ├── CACHEDIR.TAG
+│   ├── debug
+│   ├── release
+│   └── x86_64-unknown-none
+└── test.html
+```
